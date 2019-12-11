@@ -1,15 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import FORMULARIO from './AprendendoReact/formulario.js'
-import MAPALUNOS from './AprendendoReact/map-alunos.js'
-
+// import FORMULARIO from './AprendendoReact/formulario'
+// import MAPALUNOS from './AprendendoReact/map-alunos'
+import PROPS from './AprendendoReact/props'
+import App1 from './AprendendoReact/App1'
+// import Menu from './AprendendoReact/Menu';
 
 function App() {
   return (
     <div className="App">
-      <FORMULARIO></FORMULARIO>
-      <MAPALUNOS></MAPALUNOS>
+      {/* <FORMULARIO></FORMULARIO>
+      <MAPALUNOS></MAPALUNOS> */}
+      <App1></App1>
+      {/* <PROPS></PROPS>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
